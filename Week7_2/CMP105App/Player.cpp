@@ -29,3 +29,8 @@ void Player::handleInput(float dt)
 		bullet.setPosition((float)x, (float)y);
 	}
 }
+
+Bullet* Player::getBullet()
+{
+	return &bullet;
+};
