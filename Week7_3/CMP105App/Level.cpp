@@ -24,6 +24,7 @@ void Level::handleInput(float dt)
 void Level::update(float dt)
 {
 	player.update(dt);
+	player.getBullet()->update(dt);
 }
 
 // Render level
